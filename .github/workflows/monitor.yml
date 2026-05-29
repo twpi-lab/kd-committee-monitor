@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   monitor:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     timeout-minutes: 15
     steps:
       - name: Checkout
@@ -34,7 +34,12 @@ jobs:
           pip install -r requirements.txt
 
       - name: Playwright 브라우저 설치
-        run: python -m playwright install --with-deps chromium
+        run: |
+          if [ "${{ runner.os }}" = "Linux" ]; then
+            python -m playwright install --with-deps chromium
+          else
+            python -m playwright install chromium
+          fi
 
       - name: 모니터링 1회 실행
         env:
