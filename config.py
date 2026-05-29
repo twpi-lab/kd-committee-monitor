@@ -99,6 +99,17 @@ MONITOR_URLS = [
         "ssl": False,
         "parser": "default",
         "detail_url": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo={idx}&mId=0301040000",
+        "timeout": 12,
+        "fallback_urls": [
+            {
+                "url": "http://eminwon.ui4u.go.kr/emwp/gov/mogaha/ntis/web/ofr/action/OfrAction.do?jndinm=OfrNotAncmtEJB&context=NTIS&method=selectListOfrNotAncmt&methodnm=selectListOfrNotAncmtHomepage&homepage_pbs_yn=Y&subCheck=Y&not_ancmt_se_code=01,04,05&title=%EA%B3%A0%EC%8B%9C%EA%B3%B5%EA%B3%A0&initValue=Y&countYn=Y",
+                "base": "http://eminwon.ui4u.go.kr",
+                "ssl": True,
+                "parser": "ui4u_eminwon",
+                "encoding": "utf-8-sig",
+                "timeout": 25,
+            },
+        ],
     },
     {
         "name": "경기도 고시공고",
@@ -130,6 +141,13 @@ MONITOR_URLS = [
     },
 
     # 전국 단위 — 실제 연령/접속 조건에 맞는 곳만 유지
+    {
+        "name": "국가교육위원회",
+        "url": "https://www.ne.go.kr/user/bbs/BD_selectBbsList.do?q_bbsSn=1003",
+        "base": "https://www.ne.go.kr/user/bbs",
+        "ssl": True,
+        "parser": "default",
+    },
     {
         "name": "국민권익위원회",
         "url": "https://www.acrc.go.kr/menu.es?mid=a10401010000",

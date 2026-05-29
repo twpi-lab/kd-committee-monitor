@@ -311,6 +311,49 @@ def parse_kcohesion(soup, site) -> list:
         notices.append(notice)
     return notices
 
+def parse_ui4u_eminwon(soup, site) -> list:
+    """의정부 전자민원 fallback — searchDetail('67964') 행에서 고시공고를 추출."""
+    notices = []
+    detail_url = site.get("detail_url", "")
+    for row in soup.select("table tr"):
+        row_html = str(row)
+        m = re.search(r"searchDetail\s*\(\s*['\"]?(\d+)", row_html)
+        if not m:
+            continue
+        cells = row.select("td")
+        if len(cells) < 5:
+            continue
+        idx = m.group(1)
+        notice_no = re.sub(r"\s+", " ", cells[1].get_text(" ", strip=True)).strip()
+        title = re.sub(r"\s+", " ", cells[2].get_text(" ", strip=True)).strip()
+        if not title or len(title) < 2:
+            continue
+        if notice_no and not title.startswith(notice_no):
+            title = f"{notice_no} {title}"
+        link = detail_url.format(idx=idx) if detail_url else site["url"]
+        date = extract_date(row)
+        notice = _build_notice(site["name"], title, link, date, site["url"])
+        notice["id"] = f"{site['name']}|notAncmtMgtNo={idx}"
+        notices.append(notice)
+    return notices
+
+
+def _parse_by_name(parser: str, soup, site) -> list:
+    if parser == "molit":
+        return parse_molit(soup, site)
+    if parser == "gtrans":
+        return parse_gtrans(soup, site)
+    if parser == "goyang":
+        return parse_goyang(soup, site)
+    if parser == "youthdb":
+        return parse_youthdb(soup, site)
+    if parser == "kcohesion":
+        return parse_kcohesion(soup, site)
+    if parser == "ui4u_eminwon":
+        return parse_ui4u_eminwon(soup, site)
+    return parse_default(soup, site)
+
+
 def _pw_fetch_html(site: dict) -> str:
     """Playwright로 경기도청 페이지 HTML을 가져온다."""
     with sync_playwright() as p:
@@ -415,43 +458,45 @@ def fetch_notices(site: dict) -> list:
             print("  ⚠️  playwright 미설치 (pip install playwright && playwright install chromium)")
         return notices
 
-    headers  = {**BASE_HEADERS, **site.get("extra_headers", {})}
-    max_try  = 3 if site.get("parser") == "molit" else 2
+    candidates = [site]
+    for fb in site.get("fallback_urls", []):
+        fb_site = {**site, **fb}
+        candidates.append(fb_site)
+
     last_err = None
+    for candidate_i, candidate in enumerate(candidates, start=1):
+        headers = {**BASE_HEADERS, **candidate.get("extra_headers", {})}
+        parser = candidate.get("parser", "default")
+        max_try = 3 if parser == "molit" else 2
+        timeout = candidate.get("timeout", 25)
 
-    for attempt in range(1, max_try + 1):
-        try:
-            res = requests.get(
-                site["url"], headers=headers,
-                timeout=25, verify=site.get("ssl", True),
-            )
-            res.encoding = "utf-8"
-            soup = BeautifulSoup(res.text, "html.parser")
+        for attempt in range(1, max_try + 1):
+            try:
+                res = requests.get(
+                    candidate["url"], headers=headers,
+                    timeout=timeout, verify=candidate.get("ssl", True),
+                )
+                res.raise_for_status()
+                res.encoding = candidate.get("encoding") or "utf-8"
+                soup = BeautifulSoup(res.text, "html.parser")
+                notices = _parse_by_name(parser, soup, candidate)
 
-            parser = site.get("parser", "default")
-            if parser == "molit":
-                notices = parse_molit(soup, site)
-            elif parser == "gtrans":
-                notices = parse_gtrans(soup, site)
-            elif parser == "goyang":
-                notices = parse_goyang(soup, site)
-            elif parser == "youthdb":
-                notices = parse_youthdb(soup, site)
-            elif parser == "kcohesion":
-                notices = parse_kcohesion(soup, site)
-            else:
-                notices = parse_default(soup, site)
+                print_preview(site["name"], notices)
+                if candidate_i > 1:
+                    print(f"  ↪ fallback 수집 성공: {candidate['url'].split('?')[0]}")
+                return notices
 
-            print_preview(site["name"], notices)
-            return notices
+            except Exception as e:
+                last_err = e
+                if attempt < max_try:
+                    time.sleep(2)
 
-        except Exception as e:
-            last_err = e
-            if attempt < max_try:
-                time.sleep(2)
+        if candidate_i < len(candidates):
+            print(f"  ⚠️  기본 URL 실패, fallback 시도: {last_err}")
+            write_log(f"[크롤링fallback] {site['name']} | {last_err}")
 
     print(f"\n📋 {site['name']}: 0건 확인")
-    print(f"  ⚠️  크롤링 오류 ({max_try}회 시도): {last_err}")
+    print(f"  ⚠️  크롤링 오류: {last_err}")
     write_log(f"[크롤링오류] {site['name']} | {last_err}")
     return []
 
