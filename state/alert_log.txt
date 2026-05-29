@@ -1,0 +1,2 @@
+[2026-05-29 10:37:31] [크롤링오류] 국민권익위원회 | ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+[2026-05-29 10:37:38] [알림발송] 경기도의회 공고 | 경기도의회 홈페이지 장애인 모니터링 사업자 선정 심사위원 모집
