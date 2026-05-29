@@ -258,6 +258,59 @@ def parse_gtrans(soup, site) -> list:
     return notices
 
 
+
+def parse_youthdb(soup, site) -> list:
+    """청년DB '청년을 찾습니다' — fn_egov_select('NTT_...')에서 상세 ID 추출."""
+    notices = []
+    rows = soup.select("table tbody tr")
+    detail_url = site.get("detail_url", "")
+    for row in rows:
+        tag = row.select_one("td a") or row.select_one("a")
+        if not tag:
+            continue
+        title = re.sub(r"\s+", " ", tag.get_text(" ", strip=True)).strip()
+        if not title or len(title) < 2:
+            continue
+        onclick = tag.get("onclick", "") or ""
+        m = re.search(r"fn_egov_select\s*\(\s*['\"]([^'\"]+)", onclick)
+        ntt_id = m.group(1) if m else ""
+        link = detail_url.format(ntt_id=ntt_id) if ntt_id and detail_url else abs_link(tag.get("href", ""), site["base"])
+        if not link:
+            link = site["url"]
+        date = extract_date(row)
+        notice = _build_notice(site["name"], title, link, date, site["url"])
+        if ntt_id:
+            notice["id"] = f"{site['name']}|ntt_id={ntt_id}"
+        notices.append(notice)
+    return notices
+
+
+def parse_kcohesion(soup, site) -> list:
+    """국민통합위원회 공지사항 — fn_goView('문서ID')에서 상세 ID 추출."""
+    notices = []
+    rows = soup.select("table tbody tr")
+    detail_url = site.get("detail_url", "")
+    for row in rows:
+        tag = row.select_one("td.tit a") or row.select_one("td a") or row.select_one("a")
+        if not tag:
+            continue
+        title = re.sub(r"\s+", " ", tag.get_text(" ", strip=True)).strip()
+        title = title.replace("첨부파일", "").strip()
+        if not title or len(title) < 2:
+            continue
+        onclick = tag.get("onclick", "") or ""
+        m = re.search(r"fn_goView\s*\(\s*['\"]([^'\"]+)", onclick)
+        doc_id = m.group(1) if m else ""
+        link = detail_url.format(doc_id=doc_id) if doc_id and detail_url else abs_link(tag.get("href", ""), site["base"])
+        if not link:
+            link = site["url"]
+        date = extract_date(row)
+        notice = _build_notice(site["name"], title, link, date, site["url"])
+        if doc_id:
+            notice["id"] = f"{site['name']}|doc_id={doc_id}"
+        notices.append(notice)
+    return notices
+
 def _pw_fetch_html(site: dict) -> str:
     """Playwright로 경기도청 페이지 HTML을 가져온다."""
     with sync_playwright() as p:
@@ -382,6 +435,10 @@ def fetch_notices(site: dict) -> list:
                 notices = parse_gtrans(soup, site)
             elif parser == "goyang":
                 notices = parse_goyang(soup, site)
+            elif parser == "youthdb":
+                notices = parse_youthdb(soup, site)
+            elif parser == "kcohesion":
+                notices = parse_kcohesion(soup, site)
             else:
                 notices = parse_default(soup, site)
 
