@@ -16,3 +16,4 @@
 [2026-05-29 10:43:45] [알림발송] 국민권익위원회 | 국민권익위원회 국장급 공모직위(행정심판심의관) 공개모집 안내
 [2026-05-29 10:43:45] [알림발송] 국민권익위원회 | (제2026-1호) 국민권익위원회 일반직 공무원(5급, 6급) 일방전입 희망자 모집 공고[~2026.1.19.(월)]
 [2026-05-29 10:43:45] [알림발송] 국민권익위원회 | 2026년 권익위 2030 자문단 모집 공고(26.1.13.(화)9:00~26.1.22.(목)18:00)
+[2026-05-29 10:53:02] [크롤링오류] 의정부시 고시공고 | HTTPSConnectionPool(host='www.ui4u.go.kr', port=443): Max retries exceeded with url: /portal/saeol/gosiList.do?seCode=01&mId=0301040000 (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.ui4u.go.kr', port=443) at 0x7fb9f5f491c0>, 'Connection to www.ui4u.go.kr timed out. (connect timeout=25)'))
