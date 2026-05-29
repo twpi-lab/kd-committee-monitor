@@ -4,7 +4,8 @@
 규칙:
 1. 제외 키워드가 있으면 즉시 제외
 2. 위원회/참여단 유형 키워드 AND 모집 신호 키워드가 함께 있으면 매칭
-3. 청년DB처럼 '인재풀/후보자/등록' 성격은 위원회 유형 없이도 별도 허용
+3. 인재풀/후보자/등록 성격은 위원회 유형 없이도 별도 허용하되,
+   청년/2030/대학생 등 연령 제한 공고는 config.EXCLUDE_KEYWORDS에서 먼저 제외한다.
 """
 import re
 
@@ -31,9 +32,9 @@ def match_keywords(title: str):
     if committee and recruit:
         return (True, committee, recruit)
 
-    # 청년DB/정부위원회 인재풀류: 제목이 '청년인재 등록', '후보자 추천'처럼
+    # 정부위원회 인재풀류: 제목이 '후보자 추천', '인재풀 등록'처럼
     # 위원회라는 단어 없이 올라오는 경우를 일부 허용한다.
-    pool_terms = ["인재풀", "청년DB", "청년인재", "후보자", "정부위원회"]
+    pool_terms = ["인재풀", "후보자", "정부위원회"]
     if recruit and any(_kw_in(kw, t) for kw in pool_terms):
         return (True, [kw for kw in pool_terms if _kw_in(kw, t)], recruit)
 
