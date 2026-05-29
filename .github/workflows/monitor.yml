@@ -1,0 +1,56 @@
+name: 위원회 모집공고 모니터링
+
+on:
+  schedule:
+    # UTC 기준 22~14시 = KST 07~23시, 매시 0분
+    - cron: '0 22-23 * * *'
+    - cron: '0 0-14 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: committee-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Python 3.12 설치
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: 의존성 설치
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Playwright 브라우저 설치
+        run: python -m playwright install --with-deps chromium
+
+      - name: 모니터링 1회 실행
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python main.py --once
+
+      - name: state/ 변경사항 커밋
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
+          if [ -n "$(git status --porcelain state/)" ]; then
+            git add state/
+            git commit -m "chore(state): auto-update [skip ci]"
+            git push
+          else
+            echo "변경 없음"
+          fi

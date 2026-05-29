@@ -1,0 +1,20 @@
+# 런타임 상태 — GitHub Actions가 매시간 자동 커밋 (분류 학습용 데이터 누적)
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# 환경변수
+.env
