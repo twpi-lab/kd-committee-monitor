@@ -36,6 +36,7 @@ os.makedirs(BASE_DIR, exist_ok=True)
 ALL_FILE = os.path.join(BASE_DIR, "all_notices.json")
 SENT_FILE = os.path.join(BASE_DIR, "sent_ids.json")
 LOG_FILE = os.path.join(BASE_DIR, "alert_log.txt")
+RUN_STATUS_FILE = os.path.join(BASE_DIR, "run_status.json")
 
 # ────────────────────────────────────────────────
 #  HTTP 헤더

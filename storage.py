@@ -6,7 +6,7 @@ import os
 import tempfile
 from datetime import datetime
 
-from config import ALL_FILE, SENT_FILE, LOG_FILE
+from config import ALL_FILE, SENT_FILE, LOG_FILE, RUN_STATUS_FILE
 
 
 def _atomic_write_json(path: str, data):
@@ -86,3 +86,8 @@ def append_all_notices(new_notices: list) -> int:
 def write_log(msg: str):
     with open(LOG_FILE, "a", encoding="utf-8") as f:
         f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {msg}\n")
+
+
+def save_run_status(status: dict):
+    """마지막 실행 상태를 workflow health check가 읽을 수 있게 저장."""
+    _atomic_write_json(RUN_STATUS_FILE, status)

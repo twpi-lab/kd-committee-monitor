@@ -45,7 +45,37 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python main.py --once
+        run: |
+          rm -f state/run_status.json
+          python main.py --once
+
+      - name: 크롤링 전체 실패 감지
+        if: always()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python -c "
+          import json, os, requests
+          from healthcheck import should_send_zero_crawl_alert
+
+          sf = os.path.join('state', 'run_status.json')
+          if not os.path.exists(sf):
+              print('run_status.json 없음 — zero-count 점검 생략')
+              exit(0)
+          with open(sf, encoding='utf-8') as f:
+              status = json.load(f)
+          if not should_send_zero_crawl_alert(status):
+              print('zero-count 장애 알림 조건 아님')
+              exit(0)
+
+          token = os.environ.get('TELEGRAM_BOT_TOKEN','')
+          chat  = os.environ.get('TELEGRAM_CHAT_ID','')
+          if token and chat:
+              msg = '⚠️ <b>[위원회 모니터링 이상]</b>\n평일 실행에서 이번 크롤링 수집 공고가 0건입니다.\n전체 사이트 크롤링 실패 가능성 — 확인 필요'
+              requests.post(f'https://api.telegram.org/bot{token}/sendMessage',
+                  data={'chat_id': chat, 'text': msg, 'parse_mode': 'HTML'}, timeout=10)
+          "
 
       - name: state/ 변경사항 커밋
         run: |
