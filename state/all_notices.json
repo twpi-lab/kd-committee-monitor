@@ -726,5 +726,45 @@
     "date": "2026-05-29",
     "site": "경기도 고시공고",
     "collected_at": "2026-05-29 23:06:40"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=67972",
+    "title": "2026년 민방위 사이버교육 통지 불능에 따른 공시송달 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=67972&mId=0301040000",
+    "date": "2026-06-01",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-01 00:00:37"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=67970",
+    "title": "담배소매업 폐업 및 담배소매인 지정 신청 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=67970&mId=0301040000",
+    "date": "2026-06-01",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-01 00:00:37"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=67967",
+    "title": "건축이행강제금 체납자 독촉장 발부 공시송달",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=67967&mId=0301040000",
+    "date": "2026-06-01",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-01 00:00:37"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=67939",
+    "title": "의정부시 공공체육시설(민락2지구다목적풋살장) 위탁 운영자 모집 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=67939&mId=0301040000",
+    "date": "2026-06-01",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-01 00:00:37"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=67929",
+    "title": "의정부 경기북부 광역행정타운 도시개발2구역 도시계획시설[공공ㆍ문화체육시설: 공공청사(1호 공공청사)]사업 시행자 지정 및 실시계획 변경인가 정정 고시",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=67929&mId=0301040000",
+    "date": "2026-06-01",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-01 00:00:37"
   }
 ]
