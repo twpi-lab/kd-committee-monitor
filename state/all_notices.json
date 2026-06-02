@@ -1262,5 +1262,29 @@
     "date": "2026-06-02",
     "site": "경기도 고시공고",
     "collected_at": "2026-06-02 09:12:55"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68000",
+    "title": "농지 전수조사 실시 및 농지법 위반사항  사전 정비기간 운영 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68000&mId=0301040000",
+    "date": "2026-06-02",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-02 14:10:22"
+  },
+  {
+    "id": "경기도 고시공고|예약양주 청담천 지방하천 정비사업 관급자재(3차분, 혼합골재) 구매|2026-06-02",
+    "title": "예약양주 청담천 지방하천 정비사업 관급자재(3차분, 혼합골재) 구매",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=242209188&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-02",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-02 14:10:25"
+  },
+  {
+    "id": "경기도 고시공고|예약고양 공릉천 지방하천 정비사업 임목폐기물처리용역|2026-06-02",
+    "title": "예약고양 공릉천 지방하천 정비사업 임목폐기물처리용역",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=242209187&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-02",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-02 14:10:25"
   }
 ]
