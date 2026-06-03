@@ -1382,5 +1382,29 @@
     "date": "2026-06-03",
     "site": "경기도 고시공고",
     "collected_at": "2026-06-03 09:57:10"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=67997",
+    "title": "의정부2동 2026년 제5차 통장희망자 공개모집 공고(제18, 19통)",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=67997&mId=0301040000",
+    "date": "2026-06-04",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-03 23:28:41"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=67998",
+    "title": "건설공사(토목분야) 안전점검 수행기관 지정 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=67998&mId=0301040000",
+    "date": "2026-06-04",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-03 23:28:41"
+  },
+  {
+    "id": "경기도의회 공고|제12대 경기도의회 의원 등록 안내|2026-06-04",
+    "title": "제12대 경기도의회 의원 등록 안내",
+    "link": "https://www.ggc.go.kr/site/main/board/pblcntc/94570?cp=1&listType=list&bcId=pblcntc&baNotice=false&baCommSelec=false&baOpenDay=false&baUse=true",
+    "date": "2026-06-04",
+    "site": "경기도의회 공고",
+    "collected_at": "2026-06-03 23:28:42"
   }
 ]
