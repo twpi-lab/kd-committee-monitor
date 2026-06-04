@@ -1614,5 +1614,29 @@
     "date": "2026-06-04",
     "site": "경기도 고시공고",
     "collected_at": "2026-06-04 08:53:31"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68013",
+    "title": "장암동 통장 공개모집 공고(제27통)",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68013&mId=0301040000",
+    "date": "2026-06-04",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-04 12:02:19"
+  },
+  {
+    "id": "경기도 고시공고|예약환경전문공사업 등록취소(자진반납)|2026-06-04",
+    "title": "예약환경전문공사업 등록취소(자진반납)",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=242674152&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-04",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-04 12:02:24"
+  },
+  {
+    "id": "경기도 고시공고|예약2026년 경기도 문화의 날 문화예술지원프로그램 보조사업자 공모 선정|2026-06-04",
+    "title": "예약2026년 경기도 문화의 날 문화예술지원프로그램 보조사업자 공모 선정 결과 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=242674151&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-04",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-04 12:02:24"
   }
 ]
