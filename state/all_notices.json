@@ -1974,5 +1974,21 @@
     "date": "2026-06-05",
     "site": "경기도 고시공고",
     "collected_at": "2026-06-05 12:12:04"
+  },
+  {
+    "id": "경기도 고시공고|종합공사를 시공하는 건설업종 등록 공고|2026-06-05",
+    "title": "종합공사를 시공하는 건설업종 등록 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=242906724&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-05",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-05 15:58:12"
+  },
+  {
+    "id": "경기도 고시공고|종합공사를 시공하는 건설업종 폐업 공고|2026-06-05",
+    "title": "종합공사를 시공하는 건설업종 폐업 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=242906723&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-05",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-05 15:58:12"
   }
 ]
