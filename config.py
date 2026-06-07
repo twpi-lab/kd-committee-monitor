@@ -88,7 +88,7 @@ MONITOR_URLS = [
     # 지역/광역 — 실제 거주/직장 근거가 있는 곳
     {
         "name": "양주시 고시공고",
-        "url": "https://www.yangju.go.kr/www/selectEminwonList.do",
+        "url": "https://www.yangju.go.kr/www/selectEminwonList.do?key=4075",
         "base": "https://www.yangju.go.kr/www",
         "ssl": True,
         "parser": "default",
@@ -121,7 +121,7 @@ MONITOR_URLS = [
     },
     {
         "name": "남양주시 고시공고",
-        "url": "https://www.nyj.go.kr/www/selectEminwonWebList.do",
+        "url": "https://www.nyj.go.kr/www/selectEminwonWebList.do?key=2492",
         "base": "https://www.nyj.go.kr/www",
         "ssl": True,
         "parser": "default",
