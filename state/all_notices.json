@@ -3542,5 +3542,77 @@
     "date": "2026-06-10",
     "site": "남양주시 고시공고",
     "collected_at": "2026-06-09 15:15:03"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68066",
+    "title": "신곡1동 통장 공개모집 공고(제4・17통장)",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68066&mId=0301040000",
+    "date": "2026-06-10",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-09 23:14:05"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68067",
+    "title": "신규 주민등록증 발급통지 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68067&mId=0301040000",
+    "date": "2026-06-10",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-09 23:14:05"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68045",
+    "title": "통장공개모집 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68045&mId=0301040000",
+    "date": "2026-06-10",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-09 23:14:05"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68060",
+    "title": "취득세(부동산) 고지서 및 과세예고서 반송분 공시송달",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68060&mId=0301040000",
+    "date": "2026-06-10",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-09 23:14:05"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68021",
+    "title": "의정부 도시계획시설[공간시설:공원(직동근린공원)]사업(호원 반려견 놀이터 조성사업) 실시계획인가 전 열람공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68021&mId=0301040000",
+    "date": "2026-06-10",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-09 23:14:05"
+  },
+  {
+    "id": "경기도 고시공고|(긴급) 경기도청 옛청사 구관 사무환경개선사업(건축, 기계)|2026-06-09",
+    "title": "(긴급) 경기도청 옛청사 구관 사무환경개선사업(건축, 기계)",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=243372252&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-09",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-09 23:14:11"
+  },
+  {
+    "id": "경기도 고시공고|2026년 1차 경기도 고향사랑기부제 답례품 공급업체 공모|2026-06-09",
+    "title": "2026년 1차 경기도 고향사랑기부제 답례품 공급업체 공모",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=243372251&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-09",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-09 23:14:11"
+  },
+  {
+    "id": "경기도 고시공고|유통달걀 안전성 검사재료 구입 [소액수의 견적제출 공고]|2026-06-09",
+    "title": "유통달걀 안전성 검사재료 구입 [소액수의 견적제출 공고]",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=243372248&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-09",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-09 23:14:11"
+  },
+  {
+    "id": "경기도 고시공고|종합공사를 시공하는 건설업종 폐업 공고|2026-06-09",
+    "title": "종합공사를 시공하는 건설업종 폐업 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=243372247&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-09",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-09 23:14:11"
   }
 ]
