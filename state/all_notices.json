@@ -4134,5 +4134,45 @@
     "date": "2026-06-11",
     "site": "남양주시 고시공고",
     "collected_at": "2026-06-10 16:38:21"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68078",
+    "title": "신규 주민등록증 발급공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68078&mId=0301040000",
+    "date": "2026-06-11",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-10 23:20:24"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68087",
+    "title": "건설공사(토목분야) 안전점검 수행기관 지정 공고(부용천 차집관로 이설 정비공사)",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68087&mId=0301040000",
+    "date": "2026-06-11",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-10 23:20:24"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68081",
+    "title": "2025년 하반기분 탄소중립포인트(에너지) 인센티브 지급에 따른 공시송달 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68081&mId=0301040000",
+    "date": "2026-06-11",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-10 23:20:24"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68065",
+    "title": "의정부용현 공공주택지구 조성사업 환경영향평가서 초안 공람 및 설명회 개최 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68065&mId=0301040000",
+    "date": "2026-06-11",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-10 23:20:24"
+  },
+  {
+    "id": "경기도 고시공고|도로살얼음 사고예방을 위한 분석시스템 구축 용역|2026-06-10",
+    "title": "도로살얼음 사고예방을 위한 분석시스템 구축 용역",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=243614162&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-10",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-10 23:20:29"
   }
 ]
