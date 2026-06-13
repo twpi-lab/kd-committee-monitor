@@ -283,3 +283,5 @@
 [2026-06-13 08:24:56] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-13 11:19:15] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-13 14:09:57] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-06-13 22:56:47] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-06-13 22:56:48] [크롤링오류] 남양주시 고시공고 | HTTPSConnectionPool(host='www.nyj.go.kr', port=443): Max retries exceeded with url: /www/selectEminwonWebList.do?key=2492 (Caused by NameResolutionError("HTTPSConnection(host='www.nyj.go.kr', port=443): Failed to resolve 'www.nyj.go.kr' ([Errno 8] nodename nor servname provided, or not known)"))
