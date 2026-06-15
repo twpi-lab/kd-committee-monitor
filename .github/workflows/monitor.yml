@@ -2,9 +2,11 @@ name: 위원회 모집공고 모니터링
 
 on:
   schedule:
-    # UTC 기준 22~14시 = KST 07~23시, 매시 0분
-    - cron: '0 22-23 * * *'
-    - cron: '0 0-14 * * *'
+    # KST 07:00, 12:00, 15:00, 19:00 (UTC -9h)
+    - cron: '0 22 * * *'   # 07:00 KST
+    - cron: '0 3 * * *'    # 12:00 KST
+    - cron: '0 6 * * *'    # 15:00 KST
+    - cron: '0 10 * * *'   # 19:00 KST
   workflow_dispatch:
 
 permissions:
@@ -42,6 +44,7 @@ jobs:
           fi
 
       - name: 모니터링 1회 실행
+        timeout-minutes: 12
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID:   ${{ secrets.TELEGRAM_CHAT_ID }}
@@ -60,21 +63,34 @@ jobs:
           from healthcheck import should_send_zero_crawl_alert
 
           sf = os.path.join('state', 'run_status.json')
+
+          def send_alert(msg):
+              token = os.environ.get('TELEGRAM_BOT_TOKEN', '')
+              chat = os.environ.get('TELEGRAM_CHAT_ID', '')
+              if not token or not chat:
+                  raise SystemExit('텔레그램 secrets 없음 — 장애 알림 발송 불가')
+              res = requests.post(f'https://api.telegram.org/bot{token}/sendMessage',
+                  data={'chat_id': chat, 'text': msg, 'parse_mode': 'HTML'}, timeout=10)
+              res.raise_for_status()
+
           if not os.path.exists(sf):
-              print('run_status.json 없음 — zero-count 점검 생략')
-              exit(0)
-          with open(sf, encoding='utf-8') as f:
-              status = json.load(f)
+              print('run_status.json 없음 — main.py 미완료/크래시/타임아웃으로 간주')
+              send_alert('⚠️ <b>[위원회 모니터링 이상]</b>\nrun_status.json이 생성되지 않았습니다.\nmain.py가 완료 상태 저장 전 크래시/타임아웃/강제종료 가능성 — 즉시 확인 필요')
+              raise SystemExit(1)
+
+          try:
+              with open(sf, encoding='utf-8') as f:
+                  status = json.load(f)
+          except Exception as e:
+              print(f'run_status.json 읽기 실패 — 장애 알림 발송: {e}')
+              send_alert('⚠️ <b>[위원회 모니터링 이상]</b>\nrun_status.json을 읽을 수 없습니다.\n상태 파일 손상 또는 저장 중단 가능성 — 즉시 확인 필요')
+              raise SystemExit(1)
+
           if not should_send_zero_crawl_alert(status):
               print('zero-count 장애 알림 조건 아님')
-              exit(0)
+              raise SystemExit(0)
 
-          token = os.environ.get('TELEGRAM_BOT_TOKEN','')
-          chat  = os.environ.get('TELEGRAM_CHAT_ID','')
-          if token and chat:
-              msg = '⚠️ <b>[위원회 모니터링 이상]</b>\n평일 실행에서 이번 크롤링 수집 공고가 0건입니다.\n전체 사이트 크롤링 실패 가능성 — 확인 필요'
-              requests.post(f'https://api.telegram.org/bot{token}/sendMessage',
-                  data={'chat_id': chat, 'text': msg, 'parse_mode': 'HTML'}, timeout=10)
+          send_alert('⚠️ <b>[위원회 모니터링 이상]</b>\n평일 실행에서 이번 수집 공고가 0건입니다.\n전체 사이트 수집 실패 가능성 — 확인 필요')
           "
 
       - name: state/ 변경사항 커밋
