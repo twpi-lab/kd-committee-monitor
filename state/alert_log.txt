@@ -308,3 +308,5 @@
 [2026-06-18 10:18:34] [알림발송] 남양주시 고시공고 | 「남양주시 동부장애인복지관 건립」 설계공모 심사위원회 개최 결과 공고
 [2026-06-18 12:45:07] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-18 23:46:43] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-06-19 08:26:44] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-06-19 08:26:48] [알림발송] 양주시 고시공고 | 제2기 회천3동 주민자치회 위원 추가 모집 공고
