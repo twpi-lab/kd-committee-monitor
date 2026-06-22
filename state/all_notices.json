@@ -7838,5 +7838,189 @@
     "date": "2026-06-22",
     "site": "남양주시 고시공고",
     "collected_at": "2026-06-21 23:15:21"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=66983",
+    "title": "하반기 양주시 길고양이 중성화(TNR) 사업 공고",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=66983&ofr_pageSize=10",
+    "date": "2026-06-22",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-06-22 08:50:12"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68208",
+    "title": "도로점용(굴착)허가 내용 공고[제2026-흥선동점용(굴착)-2호, 김○원, 가능동 825(가능동 745)]",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68208&mId=0301040000",
+    "date": "2026-06-22",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-22 08:50:15"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68206",
+    "title": "주민등록 신고 지연자에 대한 최고공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68206&mId=0301040000",
+    "date": "2026-06-22",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-22 08:50:15"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68205",
+    "title": "주민등록 신고의무 지연자에 대한 직권조치 결과 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68205&mId=0301040000",
+    "date": "2026-06-22",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-22 08:50:15"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68212",
+    "title": "통신판매업 행정처분(직권말소) 사전통지 공시송달 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68212&mId=0301040000",
+    "date": "2026-06-22",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-22 08:50:15"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68214",
+    "title": "이륜자동차 정기검사 과태료 독촉고지서 반송분 공시송달 공고(2026. 6. 8. 발송분)",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68214&mId=0301040000",
+    "date": "2026-06-22",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-22 08:50:15"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68204",
+    "title": "의정부 지역화폐 가맹점 등록 취소 사전 예고 통지 공시송달 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68204&mId=0301040000",
+    "date": "2026-06-22",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-06-22 08:50:15"
+  },
+  {
+    "id": "경기도 고시공고|예약2026년 남양주 장현대교 등 3개소 정밀안전점검 용역|2026-06-22",
+    "title": "예약2026년 남양주 장현대교 등 3개소 정밀안전점검 용역",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951045&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "경기도 고시공고|예약오남교차로 입체화공사 건설폐기물 처리용역|2026-06-22",
+    "title": "예약오남교차로 입체화공사 건설폐기물 처리용역",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951044&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "경기도 고시공고|예약오남교차로 입체화공사 폐아스콘 처리용역|2026-06-22",
+    "title": "예약오남교차로 입체화공사 폐아스콘 처리용역",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951043&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "경기도 고시공고|예약2026년 경기디자인클리닉 참여업체 및 디자인닥터 모집 공고|2026-06-22",
+    "title": "예약2026년 경기디자인클리닉 참여업체 및 디자인닥터 모집 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951042&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "경기도 고시공고|예약대형공사 등의 입찰방법 공고[(가칭)풍무역 초등학교 신축공사]|2026-06-22",
+    "title": "예약대형공사 등의 입찰방법 공고[(가칭)풍무역 초등학교 신축공사]",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951041&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "경기도 고시공고|예약대형공사 등의 입찰방법 공고[(가칭)거모2 초등학교 신축공사]|2026-06-22",
+    "title": "예약대형공사 등의 입찰방법 공고[(가칭)거모2 초등학교 신축공사]",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951040&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "경기도 고시공고|예약2026년 4차 경기북부장애인가족지원센터 발달지원팀(팀원) 출산휴가·|2026-06-22",
+    "title": "예약2026년 4차 경기북부장애인가족지원센터 발달지원팀(팀원) 출산휴가·육아휴직 대체인력 채용 재공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951036&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "경기도 고시공고|예약2026년 가축전염병 근절기반 조성 재료 구입|2026-06-22",
+    "title": "예약2026년 가축전염병 근절기반 조성 재료 구입",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951038&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "경기도 고시공고|예약종합공사를 시공하는 건설업종 등록 공고|2026-06-22",
+    "title": "예약종합공사를 시공하는 건설업종 등록 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951034&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "경기도 고시공고|예약종합공사를 시공하는 건설업종 폐업 공고|2026-06-22",
+    "title": "예약종합공사를 시공하는 건설업종 폐업 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=245951033&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-06-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-06-22 08:50:18"
+  },
+  {
+    "id": "남양주시 고시공고|담배소매업소 폐업에 따른 신청 공고(포그라운드)|2026-06-22",
+    "title": "담배소매업소 폐업에 따른 신청 공고(포그라운드)",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87508",
+    "date": "2026-06-22",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-06-22 08:50:13"
+  },
+  {
+    "id": "남양주시 고시공고|신규 주민등록증 발급통지서 교부 불능자에 대한 공고|2026-06-22",
+    "title": "신규 주민등록증 발급통지서 교부 불능자에 대한 공고",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87501",
+    "date": "2026-06-22",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-06-22 08:50:13"
+  },
+  {
+    "id": "남양주시 고시공고|신규 주민등록증 발급대상자 공고|2026-06-22",
+    "title": "신규 주민등록증 발급대상자 공고",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87495",
+    "date": "2026-06-22",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-06-22 08:50:13"
+  },
+  {
+    "id": "남양주시 고시공고|거주불명자에 대한 주민등록 직권조치 결과 공고|2026-06-22",
+    "title": "거주불명자에 대한 주민등록 직권조치 결과 공고",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87494",
+    "date": "2026-06-22",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-06-22 08:50:13"
+  },
+  {
+    "id": "남양주시 고시공고|지적측량기준점표지 설치 고시|2026-06-22",
+    "title": "지적측량기준점표지 설치 고시",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87493",
+    "date": "2026-06-22",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-06-22 08:50:13"
+  },
+  {
+    "id": "남양주시 고시공고|장애인전용주차구역 위반 과태료 사전통지 반송내역 공시송달|2026-06-22",
+    "title": "장애인전용주차구역 위반 과태료 사전통지 반송내역 공시송달",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87492",
+    "date": "2026-06-22",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-06-22 08:50:13"
   }
 ]
