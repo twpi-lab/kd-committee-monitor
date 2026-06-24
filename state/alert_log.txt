@@ -333,3 +333,6 @@
 [2026-06-23 23:09:26] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-24 06:37:42] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-24 09:25:38] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-06-24 12:13:06] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-06-24 12:13:09] [크롤링오류] 국가교육위원회 | HTTPSConnectionPool(host='www.ne.go.kr', port=443): Max retries exceeded with url: /user/bbs/BD_selectBbsList.do?q_bbsSn=1003 (Caused by NameResolutionError("HTTPSConnection(host='www.ne.go.kr', port=443): Failed to resolve 'www.ne.go.kr' ([Errno 8] nodename nor servname provided, or not known)"))
+[2026-06-24 12:13:10] [크롤링오류] 국민통합위원회 | HTTPSConnectionPool(host='www.k-cohesion.go.kr', port=443): Max retries exceeded with url: /PCNC/contents/P30200000000.do (Caused by NameResolutionError("HTTPSConnection(host='www.k-cohesion.go.kr', port=443): Failed to resolve 'www.k-cohesion.go.kr' ([Errno 8] nodename nor servname provided, or not known)"))
