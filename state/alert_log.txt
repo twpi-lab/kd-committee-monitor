@@ -339,3 +339,4 @@
 [2026-06-24 23:04:38] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-25 06:41:17] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-25 06:41:23] [알림발송] 의정부시 고시공고 | 의정부 학생 통학버스 운송사업 제안서 평가위원(후보자) 모집공고
+[2026-06-25 08:58:48] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
