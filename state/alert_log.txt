@@ -348,3 +348,4 @@
 [2026-06-26 12:05:45] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-26 23:07:57] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-26 23:08:02] [알림발송] 양주시 고시공고 | 제2기 옥정2동 주민자치회 위원 추가 모집 공고
+[2026-06-27 06:22:51] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
