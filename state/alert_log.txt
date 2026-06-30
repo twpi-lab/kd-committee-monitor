@@ -361,3 +361,5 @@
 [2026-06-29 10:54:15] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-29 13:57:28] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-06-29 22:59:20] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-06-30 06:48:13] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-06-30 06:48:17] [크롤링오류] 국가교육위원회 | HTTPSConnectionPool(host='www.ne.go.kr', port=443): Max retries exceeded with url: /user/bbs/BD_selectBbsList.do?q_bbsSn=1003 (Caused by NameResolutionError("HTTPSConnection(host='www.ne.go.kr', port=443): Failed to resolve 'www.ne.go.kr' ([Errno 8] nodename nor servname provided, or not known)"))
