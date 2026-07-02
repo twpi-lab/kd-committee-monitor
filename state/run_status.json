@@ -1,9 +1,9 @@
 {
-  "ran_at_kst": "2026-07-02 08:17:14",
+  "ran_at_kst": "2026-07-02 15:31:38",
   "weekday": 3,
   "is_weekend": false,
-  "total_crawled": 91,
-  "added": 29,
-  "matched": 0,
-  "sent": 0
+  "total_crawled": 101,
+  "added": 27,
+  "matched": 1,
+  "sent": 1
 }
