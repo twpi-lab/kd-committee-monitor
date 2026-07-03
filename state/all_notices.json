@@ -12918,5 +12918,85 @@
     "date": "2026-07-03",
     "site": "남양주시 고시공고",
     "collected_at": "2026-07-03 06:22:04"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68367",
+    "title": "신규 주민등록증 발급 통지 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68367&mId=0301040000",
+    "date": "2026-07-03",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-03 08:59:27"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68361",
+    "title": "현장출입조사서 반송에 따른 공시송달",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68361&mId=0301040000",
+    "date": "2026-07-03",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-03 08:59:27"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68360",
+    "title": "위반건축물 행정처분 반송에 따른 공시송달",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68360&mId=0301040000",
+    "date": "2026-07-03",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-03 08:59:27"
+  },
+  {
+    "id": "경기도 고시공고|예약도로살얼음 사고예방을 위한 분석시스템 구축 용역(재공고)|2026-07-03",
+    "title": "예약도로살얼음 사고예방을 위한 분석시스템 구축 용역(재공고)",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=248062134&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-03",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-03 08:59:31"
+  },
+  {
+    "id": "경기도 고시공고|예약경기도 로컬 식재료 메뉴 개발 과정 안내|2026-07-03",
+    "title": "예약경기도 로컬 식재료 메뉴 개발 과정 안내",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=248062133&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-03",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-03 08:59:31"
+  },
+  {
+    "id": "경기도 고시공고|예약장애인활동지원사 교육기관 지정 공고|2026-07-03",
+    "title": "예약장애인활동지원사 교육기관 지정 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=248062131&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-03",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-03 08:59:31"
+  },
+  {
+    "id": "남양주시 고시공고|구제역(FMD) 발생에 따른 가축 등에 대한 일시이동중지명령 알림|2026-07-03",
+    "title": "구제역(FMD) 발생에 따른 가축 등에 대한 일시이동중지명령 알림",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87746",
+    "date": "2026-07-03",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-03 08:59:25"
+  },
+  {
+    "id": "남양주시 고시공고|전문건설업 등록 공고|2026-07-03",
+    "title": "전문건설업 등록 공고",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87745",
+    "date": "2026-07-03",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-03 08:59:25"
+  },
+  {
+    "id": "경기도의회 공고|제12대 경기도의회 전반기 의장단 선거 공고|2026-07-03",
+    "title": "제12대 경기도의회 전반기 의장단 선거 공고",
+    "link": "https://www.ggc.go.kr/site/main/board/pblcntc/94858?cp=1&listType=list&bcId=pblcntc&baNotice=false&baCommSelec=false&baOpenDay=false&baUse=true",
+    "date": "2026-07-03",
+    "site": "경기도의회 공고",
+    "collected_at": "2026-07-03 08:59:26"
+  },
+  {
+    "id": "경기도의회 공고|제392회 경기도의회 임시회 집회 알림|2026-07-03",
+    "title": "제392회 경기도의회 임시회 집회 알림",
+    "link": "https://www.ggc.go.kr/site/main/board/pblcntc/94857?cp=1&listType=list&bcId=pblcntc&baNotice=false&baCommSelec=false&baOpenDay=false&baUse=true",
+    "date": "2026-07-03",
+    "site": "경기도의회 공고",
+    "collected_at": "2026-07-03 08:59:26"
   }
 ]
