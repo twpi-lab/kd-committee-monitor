@@ -14502,5 +14502,277 @@
     "date": "2026-07-08",
     "site": "남양주시 고시공고",
     "collected_at": "2026-07-08 11:41:11"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67185",
+    "title": "거주불명등록자 행정상관리주소 이전공고(1차)",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67185&ofr_pageSize=10",
+    "date": "2026-07-09",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67189",
+    "title": "공유수면 점.사용허가 고시(만송 2026-2호)",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67189&ofr_pageSize=10",
+    "date": "2026-07-08",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67184",
+    "title": "공유수면 점용허가 고시(광적 2026-7호)",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67184&ofr_pageSize=10",
+    "date": "2026-07-08",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67179",
+    "title": "하천점용허가 고시(은현 2026-3호)",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67179&ofr_pageSize=10",
+    "date": "2026-07-08",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67188",
+    "title": "소하천 점·사용허가 공고(만송 2026-2호)",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67188&ofr_pageSize=10",
+    "date": "2026-07-08",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67186",
+    "title": "건축법상 도로지정(변경) 공고의뢰[부곡리 124-4, 주식회사이레에코]",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67186&ofr_pageSize=10",
+    "date": "2026-07-08",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67183",
+    "title": "친환경자동차법 위반 과태료 처분 통지서 반송에 따른 공시송달 공고",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67183&ofr_pageSize=10",
+    "date": "2026-07-08",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67177",
+    "title": "미세먼지 계절관리기간 운행제한 위반에 따른 과태료 체납 독촉 고지서 공시...",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67177&ofr_pageSize=10",
+    "date": "2026-07-08",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67176",
+    "title": "미세먼지 계절관리기간 운행제한 위반 과태료 처분 통지 반송에 따른 공시송...",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67176&ofr_pageSize=10",
+    "date": "2026-07-08",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "양주시 고시공고|not_ancmt_mgt_no=67175",
+    "title": "2026년 광적면 가로환경정비 기동반 추가채용 공고",
+    "link": "https://www.yangju.go.kr/www/selectEminwonView.do?pageUnit=10&pageIndex=1&searchCnd=all&key=4075&not_ancmt_mgt_no=67175&ofr_pageSize=10",
+    "date": "2026-07-08",
+    "site": "양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:30"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68397",
+    "title": "담배소매인 지정 취소 및 담배소매인 지정 신청 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68397&mId=0301040000",
+    "date": "2026-07-09",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-08 23:08:33"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68381",
+    "title": "송산2동 통장 공개모집 공고(제6통, 제17통, 제28통)",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68381&mId=0301040000",
+    "date": "2026-07-09",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-08 23:08:33"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68377",
+    "title": "통장공개모집공고(14통)",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68377&mId=0301040000",
+    "date": "2026-07-09",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-08 23:08:33"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68398",
+    "title": "건축이행강제금 체납자 독촉장 발부 공시송달",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68398&mId=0301040000",
+    "date": "2026-07-09",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-08 23:08:33"
+  },
+  {
+    "id": "경기도 고시공고|2026년 늑현교 등 9개소 보수공사|2026-07-08",
+    "title": "2026년 늑현교 등 9개소 보수공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003111&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "경기도 고시공고|2026년 하반기 농수산물검사부 시약 및 초자류 구매|2026-07-08",
+    "title": "2026년 하반기 농수산물검사부 시약 및 초자류 구매",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003110&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "경기도 고시공고|2026년 영사교 등 4개소 보수공사|2026-07-08",
+    "title": "2026년 영사교 등 4개소 보수공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003109&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "경기도 고시공고|2026년 복하교 등 10개소 보수공사|2026-07-08",
+    "title": "2026년 복하교 등 10개소 보수공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003108&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "경기도 고시공고|2026년 월향교 등 4개소 포장보수공사|2026-07-08",
+    "title": "2026년 월향교 등 4개소 포장보수공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003107&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "경기도 고시공고|2026년 고삼1가도교 등 7개소 보수공사|2026-07-08",
+    "title": "2026년 고삼1가도교 등 7개소 보수공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003106&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "경기도 고시공고|2026년 토현1가도교 등 11개소 보수공사|2026-07-08",
+    "title": "2026년 토현1가도교 등 11개소 보수공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003105&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "경기도 고시공고|2026년 봉산교 등 3개소 포장보수공사|2026-07-08",
+    "title": "2026년 봉산교 등 3개소 포장보수공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003104&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "경기도 고시공고|(긴급) 2026년 파주 공릉천교 내진보강공사|2026-07-08",
+    "title": "(긴급) 2026년 파주 공릉천교 내진보강공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003103&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "경기도 고시공고|종합공사를 시공하는 건설업종 폐업 공고|2026-07-08",
+    "title": "종합공사를 시공하는 건설업종 폐업 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=249003101&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-08",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-08 23:08:35"
+  },
+  {
+    "id": "남양주시 고시공고|소하천(도심천)비관리청 정비공사 준공 고시|2026-07-09",
+    "title": "소하천(도심천)비관리청 정비공사 준공 고시",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87819",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
+  },
+  {
+    "id": "남양주시 고시공고|건축법 위반 이행강제금 부과 예고 알림 공시송달 공고[이형○]|2026-07-09",
+    "title": "건축법 위반 이행강제금 부과 예고 알림 공시송달 공고[이형○]",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87815",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
+  },
+  {
+    "id": "남양주시 고시공고|주민등록 무단전출자에 대한 주민등록 신고 최고공고|2026-07-09",
+    "title": "주민등록 무단전출자에 대한 주민등록 신고 최고공고",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87814",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
+  },
+  {
+    "id": "남양주시 고시공고|건축법 위반사항 시정명령 알림 공시송달 공고[조숙○]|2026-07-09",
+    "title": "건축법 위반사항 시정명령 알림 공시송달 공고[조숙○]",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87813",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
+  },
+  {
+    "id": "남양주시 고시공고|2026년 6월 재산세(주택) 고지서 반송분 공시송달|2026-07-09",
+    "title": "2026년 6월 재산세(주택) 고지서 반송분 공시송달",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87810",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
+  },
+  {
+    "id": "남양주시 고시공고|고시문[공원조성계획 변경(별내7호 어린이공원)]|2026-07-09",
+    "title": "고시문[공원조성계획 변경(별내7호 어린이공원)]",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87803",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
+  },
+  {
+    "id": "남양주시 고시공고|「헌법친화도시 남양주 실현을 위한 기본 조례」제정안 입법예고|2026-07-09",
+    "title": "「헌법친화도시 남양주 실현을 위한 기본 조례」제정안 입법예고",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87797",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
+  },
+  {
+    "id": "남양주시 고시공고|고시문[공원조성계획 변경(호평5호 어린이공원)]|2026-07-09",
+    "title": "고시문[공원조성계획 변경(호평5호 어린이공원)]",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87790",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
+  },
+  {
+    "id": "남양주시 고시공고|부동산거래신고법 위반 과태료 부과 통지 공시송달 공고|2026-07-09",
+    "title": "부동산거래신고법 위반 과태료 부과 통지 공시송달 공고",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87788",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
+  },
+  {
+    "id": "남양주시 고시공고|개발제한구역법 위반행위 시정명령 공시송달 공고[송인O]|2026-07-09",
+    "title": "개발제한구역법 위반행위 시정명령 공시송달 공고[송인O]",
+    "link": "https://www.nyj.go.kr/www/selectEminwonWebView.do?key=2492&pk=87786",
+    "date": "2026-07-09",
+    "site": "남양주시 고시공고",
+    "collected_at": "2026-07-08 23:08:32"
   }
 ]
