@@ -431,3 +431,5 @@
 [2026-07-12 22:50:39] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-07-13 05:59:33] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-07-13 05:59:38] [알림발송] 의정부시 고시공고 | 의정부시 제7기 동 지역사회보장협의체 위원 모집 공고
+[2026-07-13 09:21:43] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-07-13 09:21:49] [알림발송] 남양주시 고시공고 | 제21회 광릉숲축제 제안서평가위원 모집 공고
