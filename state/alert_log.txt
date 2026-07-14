@@ -438,3 +438,4 @@
 [2026-07-14 05:21:51] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-07-14 05:21:55] [알림발송] 경기도 고시공고 | 예약2026년 경기도 성능위주설계 평가단원 모집 공고
 [2026-07-14 07:59:55] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-07-14 11:16:01] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
