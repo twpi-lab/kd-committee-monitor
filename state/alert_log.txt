@@ -435,3 +435,5 @@
 [2026-07-13 09:21:49] [알림발송] 남양주시 고시공고 | 제21회 광릉숲축제 제안서평가위원 모집 공고
 [2026-07-13 12:25:03] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-07-13 22:56:50] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-07-14 05:21:51] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-07-14 05:21:55] [알림발송] 경기도 고시공고 | 예약2026년 경기도 성능위주설계 평가단원 모집 공고
