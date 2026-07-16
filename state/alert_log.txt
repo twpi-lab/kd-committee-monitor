@@ -444,3 +444,6 @@
 [2026-07-15 08:05:33] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-07-15 11:19:48] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
 [2026-07-15 22:59:28] [크롤링오류] 성동구 고시공고 | HTTPSConnectionPool(host='www.sd.go.kr', port=443): Max retries exceeded with url: /main/selectGosiList.do (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.sd.go.kr', port=443) at 0x103402690>, 'Connection to www.sd.go.kr timed out. (connect timeout=25)'))
+[2026-07-16 05:31:54] [크롤링오류] 성동구 고시공고 | 404 Client Error: Not Found for url: https://www.sd.go.kr/main/selectGosiList.do
+[2026-07-16 05:32:01] [알림발송] 의정부시 고시공고 | 「의정부디지안도서관 미디어아트 영상 제작・구입 제안서 평가위원(후보자) 공개모집 공고
+[2026-07-16 05:32:01] [알림발송] 경기도 고시공고 | 예약경기도 사방사업 자체설계 심의위원 공개모집 공고
