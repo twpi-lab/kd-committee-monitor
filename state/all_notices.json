@@ -19510,5 +19510,109 @@
     "date": "2026-07-22",
     "site": "남양주시 고시공고",
     "collected_at": "2026-07-22 08:25:08"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68568",
+    "title": "현장출입조사서 반송에 따른 공시송달",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68568&mId=0301040000",
+    "date": "2026-07-22",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-22 11:40:59"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68567",
+    "title": "위반건축물 행정처분 반송에 따른 공시송달",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68567&mId=0301040000",
+    "date": "2026-07-22",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-22 11:40:59"
+  },
+  {
+    "id": "의정부시 고시공고|notAncmtMgtNo=68565",
+    "title": "「의정부시 다함께돌봄센터 15・16호점」 수탁기관 선정 결과 공고",
+    "link": "https://www.ui4u.go.kr/portal/saeol/gosiView.do?notAncmtMgtNo=68565&mId=0301040000",
+    "date": "2026-07-22",
+    "site": "의정부시 고시공고",
+    "collected_at": "2026-07-22 11:40:59"
+  },
+  {
+    "id": "경기도 고시공고|예약경기도청 옛청사 구관 사무환경개선사업 불연성 건설폐기물처리용역|2026-07-22",
+    "title": "예약경기도청 옛청사 구관 사무환경개선사업 불연성 건설폐기물처리용역",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834073&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
+  },
+  {
+    "id": "경기도 고시공고|예약반려마루 화성 의료 소모품 및 관리 소모품 구입|2026-07-22",
+    "title": "예약반려마루 화성 의료 소모품 및 관리 소모품 구입",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834071&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
+  },
+  {
+    "id": "경기도 고시공고|예약2026년 연천 장진교 보수공사|2026-07-22",
+    "title": "예약2026년 연천 장진교 보수공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834070&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
+  },
+  {
+    "id": "경기도 고시공고|예약2026년 연천 북삼교 등 6개소 보수공사|2026-07-22",
+    "title": "예약2026년 연천 북삼교 등 6개소 보수공사",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834069&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
+  },
+  {
+    "id": "경기도 고시공고|경기도시각장애인복지관 직원채용 공고문|2026-07-22",
+    "title": "경기도시각장애인복지관 직원채용 공고문",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834033&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
+  },
+  {
+    "id": "경기도 고시공고|수용재결신청 열람공고(154kV 남공주분기 송전선로 건설사업)|2026-07-22",
+    "title": "수용재결신청 열람공고(154kV 남공주분기 송전선로 건설사업)",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834066&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
+  },
+  {
+    "id": "경기도 고시공고|수용재결신청 열람공고(154kV 의령-구룡 기설송전선로 권원확보사업)|2026-07-22",
+    "title": "수용재결신청 열람공고(154kV 의령-구룡 기설송전선로 권원확보사업)",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834065&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
+  },
+  {
+    "id": "경기도 고시공고|2026년 7월 경기도 건축물 미술작품심의위원회 심의결과 공고(제8회)|2026-07-22",
+    "title": "2026년 7월 경기도 건축물 미술작품심의위원회 심의결과 공고(제8회)",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834057&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
+  },
+  {
+    "id": "경기도 고시공고|수암봉수목원(사립) 조성계획 승인 고시|2026-07-22",
+    "title": "수암봉수목원(사립) 조성계획 승인 고시",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834023&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
+  },
+  {
+    "id": "경기도 고시공고|일반측량업 신규등록 공고|2026-07-22",
+    "title": "일반측량업 신규등록 공고",
+    "link": "https://www.gg.go.kr/bbs/boardView.do?bIdx=251834022&bsIdx=469&bcIdx=0&menuId=1547&isManager=false&isCharge=false&page=1",
+    "date": "2026-07-22",
+    "site": "경기도 고시공고",
+    "collected_at": "2026-07-22 11:41:03"
   }
 ]
